@@ -1,0 +1,45 @@
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1{
+  	text-align: center;
+  	margin: 10px 0;
+}
+
+.wrapper{
+	background-color: gold;
+	max-width: 700px;
+	margin: 40px auto;
+	padding: 40px;
+	font-family: courier;
+}
+
+.container{
+	background-image:url("../img/underwater-coral-reef-.jpg");
+	background-size: contain;;
+	background-repeat: no-repeat;
+	border: solid black 5px;
+	border-radius: 1000px;
+	padding: 30px;
+	height: 395px;
+	width: 615px;
+}
+
+.owl-pagination{
+	display: none;
+}
+
+
+body{
+	background-color: turquoise;
+}
+
+audio{
+  display:none;
+}

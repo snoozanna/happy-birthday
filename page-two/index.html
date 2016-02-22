@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>FINAL PROJECT</title>
+		<link rel="shortcut icon" href="favicon.ico">
+
+	 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+
+	</head>
+
+	<body>
+		<div class= "wrapper">
+			<nav class="navbar navbar-light bg-faded">
+	  			<div class="nav navbar-nav">
+	    			<a class="nav-item nav-link" href="#">Home</a>
+						<a class="nav-item nav-link" href="#">ONE</a>
+	    			<a class="nav-item nav-link active" href="#">TWO<span class="sr-only">(current)</span></a>
+	    			<a class="nav-item nav-link" href="#">THREE</a>
+	  			</div>
+			</nav>
+				<h1>which beatle are you?</h1>
+				<form>
+				<div id="accordion" role="tablist" aria-multiselectable="true">
+				  <div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="headingOne">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+				        class="accordionTrigger">
+				          question 1
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+					     <fieldset>
+					      <legend><h2>The train has broken down. Do you…</h2></legend>
+					      <label for="questionOneA">1. Buy a four pack of beer. Take this opportunity to make it into a durational performance. Make sure the strangers are watching. </label>
+					      <input type="radio" name="questionOne" value="lennon" id="questionOneA">
+
+		    			  <label for="questionOneB">2. Buy a four pack of beer. Give one to each of your mates and start playing your favourite game. Get a few strangers to join in.</label>
+						  	<input type="radio" name="questionOne" value="mccartney" id="questionOneB">
+
+								<label for="questionOneC">3. Buy a four pack of beer. Get out your laptop, tether your phone and plough steadily through that mountain of emails.</label>
+								<input type="radio" name="questionOne" value="harrison" id="questionOneC">
+
+								<label for="questionOneD">4. Buy two four packs of beer, and have a fookin’ party.</label>
+						  	<input type="radio" name="questionOne" value="ringo" id="questionOneD">
+		    			 </fieldset>
+
+				    </div>
+				  </div>
+				  <div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="headingTwo">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="accordionTrigger">
+				          question 2
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+				    	<fieldset>
+					      <legend><h2>Blah blah blah. Are you...</h2></legend>
+					      <label for="questionTwoA">1. John</label>
+					      <input type="radio" name="questionTwo"
+		    				value="lennon" id="questionTwoA">
+		    			  <label for="questionTwoB">2. Paul</label>
+						  <input type="radio" name="questionTwo"
+		    				value="mccartney" id="questionTwoB">
+		    			  <label for="questionTwoC">3. George</label>
+						  <input type="radio" name="questionTwo"
+		    				value="harrison" id="questionTwoC">
+		    			  <label for="questionTwoD">4. Ringo</label>
+						  <input type="radio" name="questionTwo"
+		    				value="ringo" id="questionTwoD">
+		    			 </fieldset>
+				 	</div>
+				  </div>
+				  <div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="headingThree">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="accordionTrigger">
+				          question 3
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				    	<fieldset>
+					      <legend><h2>Blah blah blah. Are you..</h2></legend>
+					      <label for="questionThreeA">1. Ringo</label>
+					      <input type="radio" name="questionThree"
+		    				value="ringo" id="questionThreeA">
+		    			  <label for="questionTwoB">2. John</label>
+						  <input type="radio" name="questionThree"
+		    				value="lennon" id="questionThreeB">
+		    			  <label for="questionThreeC">3. Paul</label>
+						  <input type="radio" name="questionThree"
+		    				value="mccartney" id="questionThreeC">
+		    			  <label for="questionThreeD">4. George</label>
+						  <input type="radio" name="questionThree"
+		    				value="harrison" id="questionThreeD">
+		    			 </fieldset>
+				    </div>
+				  </div>
+				  <div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="headingFour">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="accordionTrigger">
+				          question 4
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+				      <fieldset>
+					      <legend><h2>Blah blah blah. Do you...</h2></legend>
+					      <label for="questionFourA">1. George</label>
+					      <input type="radio" name="questionFour"
+		    				value="harrison" id="questionFourA">
+		    			  <label for="questionFourB">2. Ringo</label>
+						  <input type="radio" name="questionFour"
+		    				value="ringo" id="questionFourB">
+		    			  <label for="questionFourC">3. Paul</label>
+						  <input type="radio" name="questionFour"
+		    				value="mccartney" id="questionFourC">
+		    			  <label for="questionFourD">4. John</label>
+						  <input type="radio" name="questionFour"
+		    				value="lennon" id="questionFourD">
+		    			 </fieldset>
+				    </div>
+				  </div>
+				  <div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="headingFive">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="accordionTrigger ">
+				          question 5
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+				      <fieldset>
+					      <legend><h2>Blah blah blah. Do you...</h2></legend>
+					      <label for="questionFiveA">1. Paul</label>
+					      <input type="radio" name="questionFive"
+		    				value="mccartney" id="questionFiveA">
+		    			  <label for="questionFiveB">2. Ringo</label>
+						  <input type="radio" name="questionFive"
+		    				value="ringo" id="questionFiveB">
+		    			  <label for="questionFiveC">3. John</label>
+						  <input type="radio" name="questionFive"
+		    				value="lennon" id="questionFiveC">
+		    			  <label for="questionFiveD">4. George</label>
+						  <input type="radio" name="questionFive"
+		    				value="harrison" id="questionFiveD">
+		    			 </fieldset>
+				    	</div>
+				  	</div>
+				</div>
+					<button type="submit" class="find-out" id="findOut">FIND OUT</button>
+			</form>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			        <h4 class="modal-title" id="myModalLabel">CONGRATULATIONS!!</h4>
+			      </div>
+			      <div class="modal-body">
+			        <h2>you are a <span id="primary-result"></span> <span id="secondary-result"></span></h2>
+			      </div>
+			      <div class="modal-footer">
+							<h4 class="modal-title" id="myModalLabel">CONGRATULATIONS!!</h4>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+		</div>
+
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.0.0/lodash.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+	  <script src="./scripts/vendor/jQueryRotate.js"></script>
+	  <script src="./scripts/main.js"></script>
+
+	</body>
+</html>

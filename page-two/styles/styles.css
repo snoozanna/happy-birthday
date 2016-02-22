@@ -1,0 +1,122 @@
+.wrapper{
+	background-color: gold;
+	max-width: 700px;
+	margin: 40px auto;
+	padding: 40px;
+	font-family: courier;
+}
+
+body{
+	background-color: turquoise;
+}
+
+label{
+	display: inline-block;
+	width: 88%;
+	vertical-align: top;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 15px;
+	font-size: 16px;
+}
+
+/*label:after {
+    content: "";
+    display: inline-block;
+
+    width: 16px;
+    height: 16px;
+
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #aaa;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+ 		border-radius: 8px;
+}*/
+
+/*input[type=radio]:checked + label:after {
+    content: "";
+    color: #f3f3f3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+}
+
+input[type=radio]{
+	display: none;
+}*/
+
+form{
+	margin:20px;
+}
+
+
+
+.find-out{
+	text-align: center;
+	width: 100px;
+	height:25px;
+	font-size: 90%;
+	float: right;
+  border: solid 1px whitesmoke;
+  background-color: turquoise;
+  color: black;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited{
+	color: deeppink;
+}
+
+a:hover{
+	color: deeppink;
+}
+
+h1{
+	text-align: center;
+	margin: 10px 0;
+}
+
+h2{
+	font-size: 130%;
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+/*label > input{ HIDE RADIO
+  display:none;
+}
+label > input + img{ /* IMAGE STYLES
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (CHECKED) IMAGE STYLES
+  border:2px solid deeppink;
+}
+*/
+
+/*modal styles*/
+
+
+.modal-body{
+	background-color: turquoise;
+	color: black;
+}
+
+
+.modal-header, .modal-footer{
+	background-color: deeppink;
+	color: gold;
+	font-weight: 900;
+}

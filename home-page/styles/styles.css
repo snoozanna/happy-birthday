@@ -1,0 +1,17 @@
+.wrapper{
+	background-color: gold;
+	max-width: 700px;
+	margin: 40px auto;
+	padding: 40px;
+	font-family: courier;
+}
+
+body{
+	background-color: turquoise;
+}
+
+h1{
+  	text-align: center;
+  	margin: 10px 0;
+		margin-bottom: 10px;
+}
