@@ -7,6 +7,50 @@
   height: auto;
 }
 
+.winner-modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  color: gold;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 1s cubic-bezier(0,1.87,.6,-0.26);
+	z-index: -1;
+}
+
+.winner-modal.is-active {
+	opacity: 1;
+	z-index: 100;
+}
+
+.modal-content {
+	text-align: center;
+	border: solid gold 1px;
+
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.modal-body{
+	background-color: turquoise;
+	color: black;
+}
+
+
+.modal-header, .modal-footer{
+	text-align: center;
+	background-color: deeppink;
+	color: gold;
+	font-weight: 900;
+}
+
+
 h1{
   	text-align: center;
   	margin: 10px 0;
@@ -18,17 +62,32 @@ h1{
 	margin: 40px auto;
 	padding: 40px;
 	font-family: courier;
+	width: 100%
 }
 
 .container{
 	background-image:url("../img/underwater-coral-reef-.jpg");
-	background-size: contain;;
+	background-size: cover;
 	background-repeat: no-repeat;
 	border: solid black 5px;
 	border-radius: 1000px;
 	padding: 30px;
 	height: 395px;
-	width: 615px;
+	width: 100%;
+	position:relative;
+}
+
+.porter-hole{
+	height: 395px;
+	width: 544px;
+	position:absolute;
+	display: inline-block;
+}
+
+.porter-pic{
+	position: relative;
+	height:inherit;
+	width: 130%;
 }
 
 .owl-pagination{
@@ -40,6 +99,6 @@ body{
 	background-color: turquoise;
 }
 
-audio{
+/*audio{
   display:none;
-}
+}*/

@@ -120,3 +120,7 @@ label > input:checked + img{ /* (CHECKED) IMAGE STYLES
 	color: gold;
 	font-weight: 900;
 }
+
+.modal-content{
+	border: solid gold 1px;
+}
