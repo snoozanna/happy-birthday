@@ -66,20 +66,27 @@ $(function(){
 	var sorted = _.sortBy(results, ['score']);
 	console.log('ordered', sorted);
 	console.log('pre diagnosis', diagnosis);
-		diagnosis.primary = sorted.pop();
+		diagnosis.primary = (sorted.pop()).name;
 		console.log('diagnosis 1', diagnosis);
+
 
 		if(sorted.length > 0){
 			console.log('secondary diagnosis', diagnosis.secondary);
-  		 diagnosis.secondary = sorted.pop();
+  		 diagnosis.secondary = (sorted.pop()).name;
 		} else {
-   		diagnosis.secondary = diagnosis.primary;
-			console.log('doubling up: secondary diagnosis', diagnosis.secondary);
+				diagnosis.secondary="";
+				diagnosis.primary = "double " + diagnosis.primary;
+			console.log('doubling up: secondary diagnosis', diagnosis.primary, diagnosis.secondary);
 		}
-		console.log('FINAL diagnosis', diagnosis.secondary);
 
-		$('#primary-result').text(diagnosis.primary.name);
-		$('#secondary-result').text(diagnosis.primary.name);
+
+
+
+
+
+
+		$('#primary-result').text(diagnosis.primary);
+		$('#secondary-result').text(diagnosis.secondary);
 
 		$('#myModal').modal();
 
