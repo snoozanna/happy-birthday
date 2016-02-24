@@ -39,7 +39,7 @@
 
 .modal-body{
 	background-color: turquoise;
-	color: black;
+	color: #373a3c;
 }
 
 
@@ -54,6 +54,8 @@
 h1{
   	text-align: center;
   	margin: 10px 0;
+    position:relative;
+    padding: 10px;
 }
 
 .wrapper{
@@ -68,24 +70,41 @@ h1{
 }
 
 .container{
-	background-image:url("../img/underwater-coral-reef-.jpg");
+	background-image:url("../../img/page-three/underwater-coral-reef-.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	border: solid black 5px;
-	border-radius: 1000px;
+	border: solid #373a3c 5px;
+	border-radius: 90px;
 	padding: 30px;
 	height: 395px;
 	width: 100%;
-	position:relative;
 }
 
-.porter-hole{
+/*.porter-hole{
 	position: absolute;
     width: 600px;
     height: 395px;
   	z-index:999;
+}*/
+
+/*.porter-hole-left{
+  position: absolute;
+  height:395px;
+  border: solid #373a3c 1px;
+	z-index: 999;
 }
 
+.porter-hole-right{
+  position: absolute;
+  position: absolute;
+  height:395px;
+  border: solid #373a3c 1px;
+	z-index: 1000;
+	bottom: 0;
+  right: 0;
+  transform: translate(-88%, -10.1%);
+
+}*/
 
 .owl-pagination{
 	display: none;

@@ -6,28 +6,28 @@ var trackOne = {
 	id: 1,
 	bearing: 275,
 	name: 'change',
-	src: './music/change.mp3'
+	src: './music/page-one/change.mp3'
 };
 
 var trackTwo = {
 	id: 2,
 	bearing: 35,
 	name: 'fairly rhythmical',
-	src: './music/fairly-rhythmical.mp3'
+	src: './music/page-one/fairly-rhythmical.mp3'
 };
 
 var trackThree = {
 	id: 3,
 	bearing: 105,
 	name: '@figsinwigs',
-	src: './music/figsinwigs.mp3'
+	src: './music/page-one/figsinwigs.mp3'
 };
 
 var trackFour = {
 	id: 4,
 	bearing: 195,
 	name: 'true (i need a wee)',
-	src: './music/true-i-need-a-wee.mp3'
+	src: './music/page-one/true-i-need-a-wee.mp3'
 };
 
 //create an array of tracks
@@ -83,13 +83,8 @@ function rotateFig(startBearing, endBearing){
   currentBearing = endBearing;
 }
 
-//fullrotation before the main rotation
-// function fullRotation(){
-// 	$fig.rotate({
-//     angle: 0,
-//     animateTo: 360,
-//   });
-// }
+//fullrotation before the main rotation??
+
 
 
 // click to change track and rotate

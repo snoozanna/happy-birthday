@@ -14,6 +14,8 @@ h1{
   	text-align: center;
   	margin: 10px 0;
 		margin-bottom: 10px;
+   position: relative;
+   padding:10px;
 }
 .fig-img{
 	max-width: 90%;
@@ -126,10 +128,11 @@ h2 span {
 
 /*true-i-need-a-wee track 4*/
 .true-i-need-a-wee {
-    position: relative;
+    position: absolute;
     display: block;
     width: 263px;
     height: 233px;
+	 bottom:-20px;
 }
 .true-i-need-a-wee>span[class^=w]:nth-of-type(n+0) {
     display: block;

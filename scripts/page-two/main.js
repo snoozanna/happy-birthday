@@ -95,7 +95,9 @@ $(function(){
 	});
 
 
-
+$('#refresh').on('click.refresh', function(){
+	location.reload();
+});
 
 
 

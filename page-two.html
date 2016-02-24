@@ -8,9 +8,8 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>HAPPY BIRTHDAY</title>
 	<link rel="shortcut icon" href="favicon.ico">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="./styles/page-two/styles.css">
 
 </head>
 
@@ -18,10 +17,10 @@
 	<div class="wrapper">
 		<nav class="navbar navbar-light bg-faded">
 			<div class="nav navbar-nav">
-				<a class="nav-item nav-link" href="#">Home</a>
-				<a class="nav-item nav-link" href="#">ONE</a>
-				<a class="nav-item nav-link active" href="#">TWO<span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#">THREE</a>
+				<a class="nav-item nav-link" href="index.html">Home</a>
+				<a class="nav-item nav-link" href="page-one.html">ONE</a>
+				<a class="nav-item nav-link active" href="page-two.html">TWO<span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="page-three.html">THREE</a>
 			</div>
 		</nav>
 		<h1>the beatles game</h1>
@@ -42,24 +41,36 @@
 							<legend>
 								<h2>The train has broken down. Do you…</h2></legend>
 							<input type="radio" name="questionOne" value="lennon" id="questionOneA">
-							<label for="questionOneA"><span class="fake-button fake-button-john"></span>
-							<p>1. Buy a four pack of beer. Take this opportunity to make it into a durational performance. Make sure the strangers are watching.</p>
+							<label for="questionOneA">
+								<span class="fake-button fake-button-john">
+									<div class= "q-num">1</div>
+									</span>
+							<p>Buy a four pack of beer. Take this opportunity to make it into a durational performance. Make sure the strangers are watching.</p>
 
 							</label>
 
 							<input type="radio" name="questionOne" value="mccartney" id="questionOneB">
-							<label for="questionOneB"><span class="fake-button fake-button-paul"></span>
-							<p>2. Buy a four pack of beer. Give one to each of your mates and start playing your favourite game. Get a few strangers to join in.</p>
+							<label for="questionOneB">
+								<span class="fake-button fake-button-paul">
+									<div class= "q-num">2</div>
+								</span>
+							<p>Buy a four pack of beer. Give one to each of your mates and start playing your favourite game. Get a few strangers to join in.</p>
 								</label>
 
 							<input type="radio" name="questionOne" value="harrison" id="questionOneC">
-							<label for="questionOneC"><span class="fake-button fake-button-george"></span>
-							<p>	3. Buy a four pack of beer. Get out your laptop, tether your phone and plough steadily through that mountain of emails.</p>
+							<label for="questionOneC">
+								<span class="fake-button fake-button-george">
+									<div class= "q-num">3</div>
+								</span>
+							<p>Buy a four pack of beer. Get out your laptop, tether your phone and plough steadily through that mountain of emails.</p>
 								</label>
 
 							<input type="radio" name="questionOne" value="ringo" id="questionOneD">
-							<label for="questionOneD"><span class="fake-button fake-button-starr"></span>
-							<p>4. Buy two four packs of beer, and have a fookin’ party.</p>
+							<label for="questionOneD">
+								<span class="fake-button fake-button-starr">
+									<div class= "q-num">4</div>
+								</span>
+							<p>Buy two four packs of beer, and have a fookin’ party.</p>
 								</label>
 						</fieldset>
 
@@ -81,29 +92,33 @@
 							<input type="radio" name="questionTwo" value="lennon" id="questionTwoA">
 							<label for="questionTwoA">
 								<span class="fake-button fake-button-john">
-								</span>
-								<p>1. John</p>
+								<div class= "q-num">1</div>
+									</span>
+								<p>John</p>
 							</label>
 
 							<input type="radio" name="questionTwo" value="mccartney" id="questionTwoB">
 							<label for="questionTwoB">
 								<span class="fake-button fake-button-paul">
+									<div class= "q-num">2</div>
 								</span>
-							<p>2. Paul</p>
+							<p>Paul</p>
 							</label>
 
 							<input type="radio" name="questionTwo" value="harrison" id="questionTwoC">
 							<label for="questionTwoC">
 								<span class="fake-button fake-button-george">
+									<div class= "q-num">3</div>
 								</span>
-								<p>3. George</p>
+								<p>George</p>
 							</label>
 
 							<input type="radio" name="questionTwo" value="ringo" id="questionTwoD">
 							<label for="questionTwoD">
 								<span class="fake-button fake-button-starr">
+									<div class= "q-num">4</div>
 								</span>
-							<p>4. Ringo</p>
+							<p>Ringo</p>
 							</label>
 
 						</fieldset>
@@ -126,29 +141,33 @@
 							<input type="radio" name="questionThree" value="ringo" id="questionThreeA">
 							<label for="questionThreeA">
 								<span class="fake-button fake-button-starr">
+									<div class= "q-num">1</div>
 					    	  </span>
-								<p>1. Ringo</p>
+								<p>Ringo</p>
 							</label>
 
 							<input type="radio" name="questionThree" value="lennon" id="questionThreeB">
-							<label for="questionTwoB">
+							<label for="questionThreeB">
 								<span class="fake-button fake-button-john">
+									<div class= "q-num">2</div>
 		    			  	</span>
-								<p>2. John</p>
+								<p>John</p>
 							</label>
 
 							<input type="radio" name="questionThree" value="mccartney" id="questionThreeC">
 							<label for="questionThreeC">
 								<span class="fake-button fake-button-paul">
+									<div class= "q-num">3</div>
 		    					</span>
-								<p>3. Paul</p>
+								<p>Paul</p>
 							</label>
 
 							<input type="radio" name="questionThree" value="harrison" id="questionThreeD">
 							<label for="questionThreeD">
 								<span class="fake-button fake-button-george">
+									<div class= "q-num">4</div>
 										</span>
-									<p>4. George</p>
+									<p>George</p>
 							</label>
 						</fieldset>
 					</div>
@@ -169,26 +188,30 @@
 								<input type="radio" name="questionFour" value="harrison" id="questionFourA">
 							<label for="questionFourA">
 								<span class="fake-button fake-button-george">
+									<div class= "q-num">1</div>
 					      	</span>
-								<p>1. George</p>
+								<p>George</p>
 							</label>
 							<input type="radio" name="questionFour" value="ringo" id="questionFourB">
 							<label for="questionFourB">
 								<span class="fake-button fake-button-starr">
+									<div class= "q-num">2</div>
 									</span>
-								<p>2. Ringo</p>
+								<p>Ringo</p>
 							</label>
 							<input type="radio" name="questionFour" value="mccartney" id="questionFourC">
 							<label for="questionFourC">
 								<span class="fake-button fake-button-paul">
+									<div class= "q-num">3</div>
 									</span>
-								<p>3. Paul</p>
+								<p>Paul</p>
 								</label>
 							<input type="radio" name="questionFour" value="lennon" id="questionFourD">
 							<label for="questionFourD">
 								<span class="fake-button fake-button-john">
+									<div class= "q-num">4</div>
 									</span>
-								<p>4. John</p>
+								<p>John</p>
 								</label>
 						</fieldset>
 					</div>
@@ -208,30 +231,38 @@
 								<h2>Blah blah blah. Do you...</h2></legend>
 							<input type="radio" name="questionFive" value="mccartney" id="questionFiveA">
 							<label for="questionFiveA">
-								<span class="fake-button fake-button-paul"></span>
-								<p>1. Paul</p>
+								<span class="fake-button fake-button-paul">
+									<div class= "q-num">1</div>
+								</span>
+								<p>Paul</p>
 								</label>
 							<input type="radio" name="questionFive" value="ringo" id="questionFiveB">
 							<label for="questionFiveB">
-								<span class="fake-button fake-button-starr"></span>
-								<p>2. Ringo</p>
+								<span class="fake-button fake-button-starr">
+									<div class= "q-num">2</div>
+								</span>
+								<p>Ringo</p>
 							</label>
 							<input type="radio" name="questionFive" value="lennon" id="questionFiveC">
 							<label for="questionFiveC">
-								<span class="fake-button fake-button-john"></span>
-								<p>3. John</p>
+								<span class="fake-button fake-button-john">
+									<div class= "q-num">3</div>
+								</span>
+								<p>John</p>
 								</label>
 							<input type="radio" name="questionFive" value="harrison" id="questionFiveD">
 							<label for="questionFiveD">
-								<span class="fake-button fake-button-george"></span>
-								<p>4. George</p>
+								<span class="fake-button fake-button-george">
+									<div class= "q-num">4</div>
+								</span>
+								<p>George</p>
 							</label>
 						</fieldset>
 					</div>
 				</div>
 			</div>
 			<button type="submit" class="find-out" id="findOut">FIND OUT</button>
-			<button type="reset" class="reset" value="Reset">RESET</button>
+			<button type="reset" class="reset" value="Reset" id="refresh">RESET</button>
 		</form>
 
 		<!-- Modal type 1 -->
@@ -261,8 +292,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.0.0/lodash.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-	<script src="./scripts/vendor/jQueryRotate.js"></script>
-	<script src="./scripts/main.js"></script>
+	<script src="./scripts/page-two/main.js"></script>
 
 </body>
 

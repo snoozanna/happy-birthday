@@ -1,0 +1,161 @@
+/*general styles*/
+.wrapper{
+	background-color: gold;
+	max-width: 700px;
+	margin: 40px auto;
+	padding: 40px;
+	font-family: courier;
+}
+
+body{
+	background-color: turquoise;
+}
+
+label{
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 15px;
+	font-size: 16px;
+}
+
+p{
+	padding:5px;
+	padding-left:60px;
+}
+
+form{
+	margin:20px;
+}
+
+
+
+button{
+	text-align: center;
+	width: 100px;
+	height:25px;
+	font-size: 90%;
+  border: solid 1px #373a3c;
+  background-color: turquoise;
+  color: #373a3c;
+}
+
+.find-out{
+	float:right
+}
+
+
+a:link{
+	text-decoration: none;
+	color: #373a3c;
+}
+
+a:visited{
+	text-decoration:none;
+	color:#373a3c;
+}
+
+a:hover{
+	color: deeppink;
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+	margin: 10px 0;
+}
+
+h2{
+	font-size: 130%;
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+span{
+	text-align: center;
+	font-size: 120%
+}
+
+/*fake beatles radio buttons*/
+
+input[type=radio]{
+	display: none;
+}
+
+input[type="radio"] + label .fake-button{
+	position:absolute;
+	 width:30px;
+	 height:30px;
+	 margin:-1px 4px 0 0;
+	 vertical-align:middle;
+	 cursor:pointer;
+	 -moz-border-radius:  50%;
+	 border-radius:  50%;
+	 background-color: whitesmoke;
+}
+
+input[type="radio"]:checked + label .fake-button-john{
+ background-image:url("../../img/page-two/radio-buttons/lennon.gif");
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
+	text-indent: -999px;
+
+ }
+
+input[type="radio"]:checked + label .fake-button-paul {
+	background-image:url("../../img/page-two/radio-buttons/mccartney.gif");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+		text-indent: -999px;
+
+}
+
+input[type="radio"]:checked + label .fake-button-starr{
+	background-image:url("../../img/page-two/radio-buttons/ringo.gif");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+		text-indent: -999px;
+
+}
+
+input[type="radio"]:checked + label .fake-button-george {
+	background-image:url("../../img/page-two/radio-buttons/harrison.gif");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+		text-indent: -999px;
+}
+
+
+
+
+
+
+
+/*modal styles*/
+
+
+.modal-body{
+	background-color: turquoise;
+	color: #373a3c;
+}
+
+
+.modal-header, .modal-footer{
+	background-color: deeppink;
+	color: gold;
+	font-weight: 900;
+}
+
+.modal-content{
+	border: solid gold 1px;
+}

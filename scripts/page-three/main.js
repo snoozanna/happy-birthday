@@ -24,10 +24,11 @@ var $player = $("#player");
   });
 
 //playtrack
+//onload play track
 
   $player.get(0).play();
 
-//onload play track
+
 
 // /* Confetti by Patrik Svensson (http://metervara.net) */
 //     var frameRate = 30;
