@@ -23,6 +23,10 @@ var $player = $("#player");
     $('#winnerModal').addClass('is-active');
   });
 
+  $('.close').on('click', function(){
+    $('#winnerModal').removeClass('is-active');
+  });
+
 //playtrack
 //onload play track
 

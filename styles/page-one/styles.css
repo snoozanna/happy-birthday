@@ -4,6 +4,7 @@
 	margin: 40px auto;
 	padding: 40px;
 	font-family: courier;
+
 }
 
 body{
@@ -48,6 +49,7 @@ h1{
 
 audio{
 	display: none;
+   /*width:48px;*/
 }
 
 /*boxes*/

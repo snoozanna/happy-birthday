@@ -80,12 +80,6 @@ h1{
 	width: 100%;
 }
 
-/*.porter-hole{
-	position: absolute;
-    width: 600px;
-    height: 395px;
-  	z-index:999;
-}*/
 
 /*.porter-hole-left{
   position: absolute;
@@ -115,6 +109,7 @@ body{
 	background-color: turquoise;
 }
 
-/*audio{
+audio{
   display:none;
-}*/
+	   /*width:48px;*/
+}
